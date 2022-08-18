@@ -2,7 +2,7 @@ module.exports = {
     apps : [{
         name: 'Binance Wavesexchange. WAVES/USDT',
         namespace: 'wte',
-        script: '/var/www/trade-bot/private/binance_wavesexchange_waves_usdt.php',
+        script: '/home/ubuntu/cross_2t_php/private/binance_wavesexchange_waves_usdt.php',
         error_file: "/dev/null",
         out_file: "/dev/null",
         merge_logs: true,
