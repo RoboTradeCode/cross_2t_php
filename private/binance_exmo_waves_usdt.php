@@ -6,14 +6,14 @@ use Src\Start;
 
 require_once dirname(__DIR__) . '/index.php';
 
-$symbol = 'BTC/USDT';
+$symbol = 'WAVES/USDT';
 
 $assets = explode('/', $symbol);
 
 Start::setProfitVolume(0);
 
 Start::start(
-    new Binance($assets, fee: 0.01),
+    new Binance($assets, fee: 0.09),
     new Exmo($assets, fee: 0.03),
     $symbol
 );
