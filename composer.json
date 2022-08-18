@@ -3,7 +3,8 @@
         "ccxt/ccxt": "^1.92",
         "ext-pdo": "*",
         "ext-curl": "*",
-        "ext-bcmath": "*"
+        "ext-bcmath": "*",
+        "ext-gmp": "*"
     },
     "autoload": {
         "psr-4": {
