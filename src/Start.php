@@ -25,6 +25,8 @@ class Start
             $symbol
         );
 
+        echo '[' . date('Y-m-d H:i:s') . '] [START] Start' . PHP_EOL;
+
         while (true) {
 
             sleep(1);
