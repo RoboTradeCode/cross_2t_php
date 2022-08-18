@@ -1,0 +1,13 @@
+{
+    "require": {
+        "ccxt/ccxt": "^1.92",
+        "ext-pdo": "*",
+        "ext-curl": "*",
+        "ext-bcmath": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    }
+}
