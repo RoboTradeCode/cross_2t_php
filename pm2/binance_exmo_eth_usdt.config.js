@@ -1,8 +1,8 @@
 module.exports = {
     apps : [{
-        name: 'Binance Exmo. WAVES/USDT',
+        name: 'Binance Exmo. ETH/USDT',
         namespace: 'wte',
-        script: '/var/www/trade-bot/private/binance_exmo_waves_usdt.php',
+        script: '/var/www/trade-bot/private/binance_exmo_eth_usdt.php',
         error_file: "/dev/null",
         out_file: "/dev/null",
         merge_logs: true,

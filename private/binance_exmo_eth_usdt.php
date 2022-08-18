@@ -6,7 +6,7 @@ use Src\Start;
 
 require_once dirname(__DIR__) . '/index.php';
 
-$symbol = 'WAVES/USDT';
+$symbol = 'ETH/USDT';
 
 $assets = explode('/', $symbol);
 
