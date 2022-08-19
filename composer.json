@@ -4,7 +4,9 @@
         "ext-pdo": "*",
         "ext-curl": "*",
         "ext-bcmath": "*",
-        "ext-gmp": "*"
+        "ext-gmp": "*",
+        "amphp/amp": "^2.6",
+        "amphp/parallel": "^1.4"
     },
     "autoload": {
         "psr-4": {
