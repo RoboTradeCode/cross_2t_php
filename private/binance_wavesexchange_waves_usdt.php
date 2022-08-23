@@ -13,7 +13,7 @@ $assets = explode('/', $symbol);
 Start::setProfitVolume(0);
 
 Start::start(
-    new Binance($assets, fee: 0.09),
-    new WavesExchange($assets, fee: 0.06),
+    new Binance($assets, ['enableRateLimit' => false], fee: 0.09),
+    new WavesExchange($assets, ['enableRateLimit' => false], fee: 0.06),
     $symbol
 );

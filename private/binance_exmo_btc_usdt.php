@@ -13,7 +13,7 @@ $assets = explode('/', $symbol);
 Start::setProfitVolume(0);
 
 Start::start(
-    new Binance($assets, fee: 0.01),
-    new Exmo($assets, fee: 0.03),
+    new Binance($assets, ['enableRateLimit' => false], fee: 0.01),
+    new Exmo($assets, ['enableRateLimit' => false], fee: 0.03),
     $symbol
 );
