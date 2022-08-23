@@ -96,7 +96,7 @@ class Comparator
             'exchange_sell_name' => $exchange_sell->name,
             'exchange_buy_name' => $exchange_buy->name,
             'profit' => floor($profit * 10**8) / 10**8,
-            'profit_volume' => floor($profit / $exchange_sell_base_asset_amount_give * 10**2) / 10**2,
+            'profit_volume' => floor($profit / $exchange_sell_base_asset_amount_give * 10000) / 100,
             'sell' => [
                 'price' => $exchange_sell_price,
                 'base_asset' => -1 * $exchange_sell_base_asset_amount_give,
